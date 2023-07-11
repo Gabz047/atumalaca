@@ -39,9 +39,14 @@ header {
 
 .logo-img {
     display: flex;
-    background-color: aqua;
     min-width: 100px;
-    height: 40px;
+    height: 50px;
+}
+
+.logo-img img{
+   width: 100%;
+   height: 100%;
+   border-radius: 5px;
 }
 
 #menu-links {
@@ -76,10 +81,13 @@ header {
 }
 
 .img-posheader {
-    background-color: #0442BF;
     width: 700px;
     height: 40vh;
-    color: aliceblue;
+}
+
+.img-posheader img {
+    width: 100%;
+    height: 100%;
 }
 
 .expoBox-container {
@@ -397,5 +405,70 @@ header {
     opacity: 50%;
 }
 
+.gallery img {
+    height: 250px;
+    width: 400px;
+}
 
+.container {
+   margin: 0 auto;
+   padding: 15px;
+   max-width: 1500px;
+   position: relative;
+}
 
+.gallery-wrapper {
+    overflow-x: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+
+}
+
+.arrow-left, .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.arrow-right {
+position: absolute;
+    left: auto;
+    right: 0;
+    border: none;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    opacity: 1;
+}
+
+.item {
+   width: 250px;
+   height: 250px;
+   flex-shrink: 0;
+   opacity: 0.6;
+   border: 5px solid #fff;
+   transition: all 600ms ease-in-out;
+}
+
+.current-item {
+    opacity: 1;
+    border: 5px solid turquoise;
+    box-shadow: 0 0 10px turquoise;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
