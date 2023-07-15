@@ -96,6 +96,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 90%;
+    margin: 7vh auto 0;
 }
 
 .expoBox-subContainer {
@@ -109,8 +111,14 @@ header {
     width: 100%;
     height: 100%;
     align-items: end;
-    background: linear-gradient(to left, transparent 0%, black 200%);
     border-radius: 5px;
+    position: relative;
+}
+
+.zoomIN {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .subContainer-content img {
@@ -118,21 +126,43 @@ header {
     height: 100%;
     z-index: -1;
     border-radius: 5px;
+    transition: 1s all ease-in-out;
+}
+
+.zoomIN:hover img{
+  transform: scale(1.1);
+  background: linear-gradient(to top, transparent 0%, black 200%);
 }
 
 .subContainer-text {
     display: flex;
     width: 100%;
     height: 20%;
-    background-color: #BF9004;
-    position: relative;
+    background: linear-gradient(to top, transparent -50%, black 200%);
     bottom: 0;
-    z-index: 1;
-    
+    z-index: 0;
+    position: absolute;
+    text-align: center;
+    justify-content: justify;
+    align-items: center;
 }
 
+.subContainer-text a {
+   padding: 4px;
+   color: #fff;
+   font-family: var(--font-paraParagrafos);
+   font-size: 22px;
+   text-decoration: none;
+}
+
+.subContainer-text a:hover {
+    text-decoration: underline;
+    color: var(--cor-vermelhoTomato);
+}
+
+
+
 .destaques-container {
-    background-color: #0442BF;
     height: 70vh;
     width: 90%;
     margin: 4vh auto 0px;
@@ -151,7 +181,7 @@ header {
 
 
 .miniBoxes-destaques-item1 {
-    background-color: #212226;
+    background-color: #f0eeee;
     grid-column: 1;
     height: 99%;
     width: 100%;
@@ -180,7 +210,7 @@ header {
 }
 
 .miniBoxes-destaques-item2 {
-    background-color: #374da5;
+    background-color: #f0eeee;
     grid-column: 1;
     height: 99%;
     width: 100%;
@@ -210,7 +240,7 @@ header {
 }
 
 .miniBoxes-destaques-item3 {
-    background-color: #212226;
+    background-color: #f0eeee;
     grid-column: 1;
     height: 99%;
     width: 100%;
@@ -240,7 +270,7 @@ header {
 }
 
 .miniBoxes-destaques-item4 {
-    background-color: #212226;
+    background-color: #f0eeee;
     
     grid-column: 1;
     height: 99%;
@@ -271,7 +301,7 @@ header {
 }
 
 .miniBoxes-destaques-item5 {
-    background-color: #212226;
+    background-color: #f0eeee;
     grid-row: 9;
     grid-column: 1;
     height: 99%;
@@ -306,7 +336,6 @@ header {
     grid-row: 1 /span 5;
     width: 100%;
     height: 100%;
-    background-color: rgb(144, 151, 156);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 55% 2% 43%;
@@ -355,7 +384,6 @@ header {
     grid-row: 1 /span 5;
     width: 95%;
     height: 100%;
-    background-color: rgb(41, 153, 233);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 43% 2% 55%;
@@ -493,7 +521,6 @@ position: absolute;
 }
 
 .boxes-emlancamento-container {
-     background-color: #011140;
      height: 70vh;
      width: 1500px;
      margin: 5vh auto 15vh;
@@ -612,7 +639,7 @@ position: absolute;
 .embreve-container {
     width: 75%;
     height: 80vh;
-    background-color: #BF9004;
+    
     margin: 5vh auto 0;
     display: grid;
     grid-template-columns: 33% 33% 34%;
@@ -678,7 +705,7 @@ position: absolute;
     grid-column: 2 /span 4;
     grid-row: 2 /span 3;
     width: 99.5%;
-    height: 99%;
+    height: 99.3%;
     margin: 0 auto;
     background-color: #26264d;
     display: flex;
