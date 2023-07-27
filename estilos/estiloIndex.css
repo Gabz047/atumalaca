@@ -199,8 +199,6 @@ header {
     color: var(--cor-vermelhoTomato);
 }
 
-
-
 .destaques-container {
     height: 70vh;
     width: 90%;
@@ -1399,4 +1397,128 @@ header {
     text-align: center;
     font-size: 13px;
     color: var(--cor-amarelo);
+}
+
+@media screen and (max-width: 1800px) {
+
+    .subContainer-text a {
+        padding: 4px;
+        color: #fff;
+        font-family: var(--font-paraParagrafos);
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    #h1-Minibox1 {
+        margin-left: 15px;
+        font-family: var(--font-paraParagrafos2);
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    #h2-Minibox1 {
+        margin-left: 15px;
+        font-size: 12px;
+        font-family: var(--font-paraParagrafos2);
+        padding: 0 4px 0;
+    }
+    
+    #h1-Minibox2 {
+        margin-left: 15px;
+        font-family: var(--font-paraParagrafos2);
+        font-size: 14px;
+    }
+    
+    #h2-Minibox2 {
+        margin-left: 13px;
+        font-size: 12px;
+        font-family: var(--font-paraParagrafos2);
+        padding: 0 4px 0;
+    }
+    
+    #h1-Minibox3 {
+        margin-left: 15px;
+        font-family: var(--font-paraParagrafos2);
+        font-size: 20px;
+    
+    }
+    
+    #h2-Minibox3 {
+        margin-left: 13px;
+        font-size: 14px;
+        font-family: var(--font-paraParagrafos2);
+        padding: 0 4px 0;
+    }
+    
+    #h1-Minibox4 {
+        margin-left: 15px;
+        font-family: var(--font-paraParagrafos2);
+        font-size: 20px;
+    }
+    
+    #h2-Minibox4 {
+        margin-left: 13px;
+        font-size: 14px;
+        font-family: var(--font-paraParagrafos2);
+        padding: 0 4px 0;
+    }
+    
+    #h1-Minibox5 {
+        margin-left: 15px;
+        font-family: var(--font-paraParagrafos2);
+        font-size: 20px;
+    }
+    
+    #h2-Minibox5 {
+        margin-left: 13px;
+        font-size: 14px;
+        font-family: var(--font-paraParagrafos2);
+        padding: 0 4px 0;
+    }
+    
+    .descricao-box1 a {
+        padding: 4px;
+        color: #fff;
+        font-family: var(--font-paraParagrafos);
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .descricao-box2 a {
+        padding: 4px;
+        color: #fff;
+        font-family: var(--font-paraParagrafos);
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .descricao-box1-aside a {
+        padding: 4px;
+        color: #fff;
+        font-family: var(--font-paraParagrafos);
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .descricao-box2-aside a {
+        padding: 4px;
+        color: #fff;
+        font-family: var(--font-paraParagrafos);
+        font-size: 18px;
+        text-decoration: none;
+    }  
+
+    #h1-Minibox5 {
+        margin-left: 15px;
+        font-family: var(--font-paraParagrafos2);
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    #h2-Minibox5 {
+        margin-left: 13px;
+        font-size: 12px;
+        font-family: var(--font-paraParagrafos2);
+        padding: 0 4px 0;
+    }
+    
 }
