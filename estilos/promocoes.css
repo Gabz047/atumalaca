@@ -102,6 +102,7 @@ header {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-size: 20px;
   }
   
   .dropdown-content a:hover {
@@ -470,6 +471,11 @@ a {
     font-family: var(--font-paraParagrafos2);
 }
 
+
+.content-box1-pr a { 
+    font-size: 23px;
+}
+
 .content-box1-pr a {
     color: #fff;
 }
@@ -586,7 +592,7 @@ a {
 
 .boxesrow-content a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     margin-left: 15px;
     color: #fff;
     font-family: var(--font-paraParagrafos2);
@@ -690,6 +696,7 @@ a {
     text-decoration: none;
     opacity: 0.8;
     font-weight: 900;
+    font-size: 20px;
 }
 
 .footer ul li {
