@@ -200,3 +200,33 @@ main {
 .inicial-boxes:hover .content-inicial-box a {
     font-size: 20px;
 }
+
+.jogoPC-container {
+    display: flex;
+    width: 75%;
+    height: 600px;
+    background-color: #212226;
+    margin: 0 auto;
+}
+
+.box-jogoPC {
+    width: 50%;
+    height: 100%;
+    background: #BF9004;
+}
+
+.miniboxes1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+    background-color: #021E73;
+}
+
+.miniboxes1 {
+    width: 98%;
+    height: 190px;
+    background-color: #F20544;
+    margin: 0 auto;
+}
