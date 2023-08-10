@@ -143,7 +143,7 @@ main {
 .container-hr {
     width: 1000px;
     height: auto;
-    margin: 4vh auto 0.5vh;
+    margin: 4vh auto 8vh;
 }
 
 #destaques-doDia {
@@ -155,6 +155,19 @@ main {
     width: 100%;
     margin: 0 auto;
     opacity: 50%;
+}
+
+.overlay {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    transition: 1s;
+}
+
+.overlay:hover {
+    background-color: var(--cor-amarelo);
+    opacity: 25%;
 }
 /*PRE-SETS*/
 
@@ -189,22 +202,24 @@ main {
 .content-inicial-box a {
     text-decoration: none;
     color: var(--cor-branco);
-    font-size: 16px;
+    font-size: 15px;
     transition: 0.9s ease-in-out;
+    opacity: 0.5;
 }
 
 .inicial-boxes:hover .content-inicial-box {
-    height: 50%; 
+    height: 50%;
 }
 
 .inicial-boxes:hover .content-inicial-box a {
     font-size: 20px;
+    opacity: 1;
 }
 
 .jogoPC-container {
     display: flex;
-    width: 75%;
-    height: 600px;
+    width: 65%;
+    height: 550px;
     background-color: #212226;
     margin: 0 auto;
 }
@@ -213,6 +228,29 @@ main {
     width: 50%;
     height: 100%;
     background: #BF9004;
+    position: relative;
+    display: flex;
+}
+
+.box-jogoPC-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.box-jogoPC-content {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to top, transparent -50%, black 150%);;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+}
+
+.box-jogoPC:hover .box-jogoPC-content {
+    display: flex;
+    width: 60%;
+    opacity: 1;
 }
 
 .miniboxes1-container {
@@ -225,8 +263,55 @@ main {
 }
 
 .miniboxes1 {
+    display: flex;
     width: 98%;
-    height: 190px;
+    height: 32%;
     background-color: #F20544;
     margin: 0 auto;
+    position: relative;
 }
+
+.miniboxes1-img {
+    width: 40%;
+    height: 100%;
+    background-color: #a5bcff;
+    position: relative;
+}
+
+.miniboxes1-content {
+    width: 60%;
+    height: 100%;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.miniboxes1-content h1 {
+    font-size: 25px;
+    padding: 5px;
+    color: var(--cor-pretoFosco);
+    font-family: var(--font-paraParagrafos2);
+}
+
+.miniboxes1-content a {
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--cor-pretoFosco);
+    font-family: var(--font-paraParagrafos2);
+    font-weight: 200;
+    padding: 5px;
+}
+
+.miniboxes-console-container {
+    height: 700px;
+    width: 65%;
+    margin: 0 auto;
+    background-color: #0442BF;
+}
+
+
+/*PRESETS*/
+
+/*PRESETS*/
