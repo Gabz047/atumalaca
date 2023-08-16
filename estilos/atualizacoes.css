@@ -27,6 +27,7 @@
 
 body {
     height: auto;
+    position: relative;
 }
 
 header {
@@ -34,7 +35,7 @@ header {
     height: 60px;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 30;
     font-family: var(--font-paraParagrafos);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -141,7 +142,7 @@ main {
 /*PRE-SETS*/
 
 .container-hr {
-    width: 1000px;
+    width: 68%;
     height: auto;
     margin: 4vh auto 8vh;
 }
@@ -304,11 +305,100 @@ main {
     padding: 5px;
 }
 
-.miniboxes-console-container {
-    height: 700px;
+.miniboxes1-content a:hover {
+    text-decoration: underline;
+    color: var(--cor-vermelhoTomato);
+}
+
+.container-sixboxes {
+    width: 50%;
+    height: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.six-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.six-content {
+    background: linear-gradient(to top, transparent -50%, black 200%);
+    width: 100%;
+    height: 30%;
+    z-index: 10;
+    position: absolute;
+}
+
+.six-boxes {
+    width: 49%;
+    height: 32%;
+    background-color: #a5bcff;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.container-jogos-console {
     width: 65%;
+    height: 700px;
     margin: 0 auto;
+    background-color: #212226;
+    display: flex;
+}
+
+.miniboxes-console-container {
+    height: 100%;
+    width: 50%;
     background-color: #0442BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.miniboxes-console-box {
+    width: 98%;
+    height: 170px;
+    background-color: #a5bcff;
+    display: flex;
+}
+
+.MG-console-img {
+    width: 45%;
+    height: 100%;
+    background-color: #212226;
+}
+
+.MG-console-content {
+    width: 55%;
+    height: 170px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.MG-console-content h1 {
+    padding: 5px;
+    font-family: var(--font-paraParagrafos2);
+}
+
+.MG-console-content a {
+    text-decoration: none;
+    color: var(--cor-pretoFosco);
+    padding: 5px;
+}
+
+.MG-console-content a:hover {
+    text-decoration: underline;
+    color: var(--cor-vermelhoTomato);
 }
 
 
