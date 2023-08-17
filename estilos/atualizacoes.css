@@ -337,7 +337,7 @@ main {
 
 .six-boxes {
     width: 49%;
-    height: 32%;
+    height: 32.5%;
     background-color: #a5bcff;
     position: relative;
     display: flex;
@@ -400,6 +400,69 @@ main {
     text-decoration: underline;
     color: var(--cor-vermelhoTomato);
 }
+
+.container-mobile {
+    width: 65%;
+    height: 900px;
+    background-color: #a5bcff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.three-boxes-container {
+    width: 33%;
+    height: 450px;
+    background-color: #0442BF;
+}
+
+.img-th {
+    width: 100%;
+    height: 270px;
+    background-color: #6598ff;
+}
+
+.content-th {
+    width: 100%;
+    height: 180px;
+    background-color: #BF9004;
+}
+
+.container-mobile-fv {
+    width: 100%;
+    height: 470px;
+    background-color: #212226;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bigbox {
+    width: 43%;
+    height: 450px;
+    background-color: #F20544;
+}
+
+.fourboxes-container {
+    width: 55%;
+    height: 450px;
+    background-color:aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cx-fr {
+    width: 45%;
+    height: 200px;
+    background-color: #0442BF;
+}
+
+
+
 
 
 /*PRESETS*/
