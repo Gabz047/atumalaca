@@ -443,6 +443,35 @@ main {
     width: 43%;
     height: 450px;
     background-color: #F20544;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.bigbox-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.bigbox-content {
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    background: linear-gradient(to top, transparent -50%, black 200%);
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.bigbox-content a{
+  text-decoration: none;
+  color: var(--cor-branco);
+  font-size: 20px;
+}
+
+.bigbox:hover .bigbox-content {
+    height: 40%;
+    opacity: 1;
 }
 
 .fourboxes-container {
@@ -459,10 +488,27 @@ main {
     width: 45%;
     height: 200px;
     background-color: #0442BF;
+    align-items: end;
+    display: flex;
+    position: relative;
 }
 
+.cx-fr-img {
+    width: 100%;
+    height: 100%;
+}
 
+.cx-fr-img img {
+    width: 100%;
+    height: 100%;
+}
 
+.cx-fr-content {
+ width: 100%;
+ height: 25%;
+ background-color: #212226;
+ position: absolute;
+}
 
 
 /*PRESETS*/
