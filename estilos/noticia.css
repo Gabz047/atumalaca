@@ -112,3 +112,80 @@ header {
   .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#tittle-notice {
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 50px;
+    font-family: var(--font-paraParagrafos2);
+}
+
+.section-fst {
+    width: 100%;
+    height: 500px;
+}
+
+.fst-img {
+    width: 50%;
+    height: 450px;
+    margin: 20px auto 0px;
+}
+
+.fst-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.fst-img h4{
+  color: var(--cor-azulClaro);
+  font-family: var(--font-paraParagrafos2);
+}
+
+.txt-fst {
+    width: 100%;
+    height: 400px;
+}
+
+.txt-box {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.txt-box p {
+    color: var(--cor-pretoFosco);
+    font-size: 25px;
+}
+
+.propaganda-box {
+ width: 25%;
+ height: 300px;
+ background-color: #BF9004;
+ margin: 0 auto;
+ animation-name: propaganda;
+ animation-duration: 10s;
+ animation-delay: 1s;
+}
+
+@keyframes propaganda {
+  0% {
+    background-image: url('/imagens/blazeanun.jpg');
+  }
+
+  20% {
+    background-image: url('/imagens/asm.png');
+  }
+
+  40% {
+    background-image: url('/imagens/ava.webp');
+  }
+
+  60% {
+    background-image: url('/imagens/cs.webp');
+  }
+
+  100% {
+    background-image: url('/imagens/GRNNYRMK.jpg');
+  }
+}
