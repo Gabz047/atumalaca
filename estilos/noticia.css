@@ -123,9 +123,9 @@ header {
 
 .section-fst {
     width: 100%;
-    height: 600px;
+    height: 580px;
     display: flex;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
 }
 
 .fst-img {
@@ -159,12 +159,12 @@ header {
 
 .txt-fst {
     width: 100%;
-    height: 350px;
+    height: auto;
 }
 
 .txt-box {
     width: 65%;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
     display: flex;
 }
@@ -176,9 +176,9 @@ header {
 }
 
 .propaganda-box {
- width: 27%;
- height: 300px;
- margin: 0 auto;
+ width: 40%;
+ height: 400px;
+ margin: 10vh auto 0;
  background-image: url('../imagens/blazeanun.jpg');
  animation-name: propaganda;
  animation-duration: 20s;
