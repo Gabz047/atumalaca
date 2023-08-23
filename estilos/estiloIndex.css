@@ -1673,10 +1673,20 @@ header {
       margin: 0 auto;
     }
 
+    .descricao-box1 {
+        display: flex;
+        justify-content: center;
+    }
+
     .img-box2 {
       width: 80%;
       height: 90%;
       margin: 0 auto;
+    }
+
+    .descricao-box2 {
+        display: flex;
+        justify-content: center;
     }
 
     .img-box1-aside {
@@ -1695,6 +1705,11 @@ header {
         margin: 0 auto;  
     }
 
+    .descricao-box2-aside {
+        display: flex;
+        justify-content: center;
+    }
+
     .logo-posheader {
         display: flex;
         align-items: center;
@@ -1709,4 +1724,58 @@ header {
         height: 40vh;
     }
 
+    .embreve-container {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 30% 30%;
+        height: 150vh;
+        gap: 12px;
+    }
+
+    .box1-EV {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+
+    .box2-EV {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+
+    .box3-EV {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+
+    .box4-EV {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+
+    .box5-EV {
+        grid-column: 1 /span 2;
+        grid-row: 3;
+        width: 99.5%;
+        height: 100%;
+    }
+
+    .content-box5-EV {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .box6-EV {
+        grid-column: 1 /span 2;
+        grid-row: 4;
+        height: 100%;
+    }
+
+    .content-box6-EV {
+        display: flex;
+        justify-content: center;
+    }
 }
