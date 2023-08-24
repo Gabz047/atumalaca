@@ -1735,15 +1735,17 @@ header {
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 
     .expoBox-container {
-        overflow-y: auto;
+        overflow-x: auto;
+        max-width: 1500px;
+        gap: 10px;
     }
 
     .expoBox-subContainer {
         display: flex;
-        width: 900px;
+        width: 400px;
         height: 85%;
     }
 
