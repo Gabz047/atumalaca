@@ -8,7 +8,7 @@
     --font-nomeSite: 'Caprasimo', cursive;
     --font-titulos: 'Bebas Neue', sans-serif;
     --font-subtitulos: 'Jost', sans-serif;
-    --font-paraParagrafos: 'Inter', sans-serif;
+    --font-paraParagrafos: 'Inter', sans-serif; 
     --font-paraParagrafos2: 'Lato', sans-serif;
     --cor-vermelhoTomato: #F20544;
     --cor-azulMeioEscuro: #021E73;
@@ -1631,9 +1631,16 @@ header {
     }
 
     #hrdestaques {
-        width: 90%;
+        width: 80%;
         margin-left: 0 auto;
         opacity: 50%;
+    }
+
+    .expoBox-container {
+        height: 70vh;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        overflow-x: auto;
     }
 
 }
