@@ -38,7 +38,52 @@
             </ul>
         </nav>
     </header>
-    
+    <nav class="menu-lateral">
+
+        <div class="btn-expandir">
+        <i class='bx bx-menu' id="btn-exp"></i>
+         </div>    
+
+         <ul>
+            <li class="item-menu " id="categorias">
+                <a href="#">
+                    <span class="icon">
+                        <i class='bx bx-bullseye'></i>
+                    </span>
+                    <span class="txt-link" id="categoria-rsp">Categorias</span>
+                </a>
+                <ul class="dropdown-rsp">
+                    <li><a href="promocoes.html">Promoções</a></li>
+                    <li><a href="#">Polêmicas</a></li>
+                    <li><a href="atualizacoes.html">Atualizações</a></li>
+                </ul>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon">
+                        <i class='bx bxs-comment-detail'></i>
+                    </span>
+                    <span class="txt-link">Análises</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="#">
+                    <span class="icon">
+                        <i class='bx bxs-crown'></i>
+                    </span>
+                    <span class="txt-link">Premium</span>
+                </a>
+            </li>
+            <li class="item-menu">
+                <a href="login.html">
+                    <span class="icon">
+                        <i class='bx bxs-user'></i>
+                    </span>
+                    <span class="txt-link">Login</span>
+                </a>
+            </li>
+         </ul>
+    </nav>
     <main>
         <h1 id="tittle-notice">Astroneer está em promoção</h1>
         <section class="section-fst">
@@ -72,11 +117,21 @@
             </div>
         </section>
         <article class="show-img-container">
-            <div class="showboxes1"></div>
-            <div class="showboxes2"></div>
-            <div class="showboxes3"></div>
-            <div class="showboxes4"></div> 
-            <div class="showboxes5"></div>
+            <div class="showboxes1">
+                <img src="../atumalaca/imagens/AMNSTBNKR.png" alt="">
+            </div>
+            <div class="showboxes2">
+                <img src="../atumalaca/imagens/as.jpg" alt="">
+            </div>
+            <div class="showboxes3">
+                <img src="../atumalaca/imagens/asm.png" alt="">
+            </div>
+            <div class="showboxes4">
+                <img src="../atumalaca/imagens/astner-notice.jpg" alt="">
+            </div> 
+            <div class="showboxes5">
+                <img src="../atumalaca/imagens/ALNISLTN.avif" alt="">
+            </div>
         </article>
         <div class="txt-fnl-container">
             <div class="txt-fnl-content">
@@ -112,6 +167,9 @@
             Level Up News © 2023
         </p>
     </footer>
+    <script src="./backend/script.js"></script>
+    <script src="./backend/menu.js"></script>
+    <script src="./backend/expandir.js"></script>
 </body>
 
 </html>
